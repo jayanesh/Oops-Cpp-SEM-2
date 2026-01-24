@@ -29,5 +29,5 @@ int main(){
     string str="Hello";
     char strCopy[]="";
     cout<<"The copy of char array using copy() function:"<<str.copy(strCopy,5,0)<<endl;
-    cout<<strCopy;
+    cout<<strCopy<<endl;
 }
