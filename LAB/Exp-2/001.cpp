@@ -37,6 +37,6 @@ int main(){
         cout<<"Enter till which term you need Fibonacci Sequence for: ";
         cin>>N;
         if(N<=0) cout<<"Invalid input!";
-        else for(int i=0; i<N; i++) cout<<fib(i)<<" ";
+        else for(int i=0;i<N;i++) cout<<fib(i)<<" ";
     }
 }
